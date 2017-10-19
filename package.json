@@ -10,7 +10,6 @@
   "homepage": "https://github.com/tiaanduplessis/react-native-view-finder",
   "bugs": "https://github.com/tiaanduplessis/react-native-view-finder",
   "main": "index.js",
-   
   "files": [
     "index.js"
   ],
@@ -23,7 +22,14 @@
   },
   "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
   "devDependencies": {
-    "husky": "^0.14.3", 
+    "husky": "^0.14.3",
     "prettier-standard": "^6.0.0"
+  },
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
