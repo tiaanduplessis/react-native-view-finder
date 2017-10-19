@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { ActivityIndicator, Platform, StyleSheet, View } from 'react-native'
+import { ActivityIndicator, StyleSheet, View } from 'react-native'
 
 /**
  * A flexible little View Finder component to be used in conjunction with react-native-camera
