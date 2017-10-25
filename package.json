@@ -1,6 +1,6 @@
 {
   "name": "react-native-view-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A flexible little View Finder component to be used in conjunction with react-native-camera",
   "license": "MIT",
   "repository": {
@@ -10,7 +10,6 @@
   "homepage": "https://github.com/tiaanduplessis/react-native-view-finder",
   "bugs": "https://github.com/tiaanduplessis/react-native-view-finder",
   "main": "index.js",
-   
   "files": [
     "index.js"
   ],
@@ -25,5 +24,12 @@
   "devDependencies": {
     "husky": "^0.14.3", 
     "prettier-standard": "^7.0.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
