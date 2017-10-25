@@ -11,6 +11,7 @@ const ViewFinder = ({
   height,
   width,
   borderWidth,
+  borderRadius,
   color,
   loading,
   borderLength
@@ -25,7 +26,8 @@ const ViewFinder = ({
             width: borderLength,
             borderColor: color,
             borderLeftWidth: borderWidth,
-            borderTopWidth: borderWidth
+            borderTopWidth: borderWidth,
+            borderTopLeftRadius: borderRadius
           }
         ]}
       />
@@ -37,7 +39,8 @@ const ViewFinder = ({
             width: borderLength,
             borderColor: color,
             borderRightWidth: borderWidth,
-            borderTopWidth: borderWidth
+            borderTopWidth: borderWidth,
+            borderTopRightRadius: borderRadius
           }
         ]}
       />
@@ -52,7 +55,8 @@ const ViewFinder = ({
             width: borderLength,
             borderColor: color,
             borderLeftWidth: borderWidth,
-            borderBottomWidth: borderWidth
+            borderBottomWidth: borderWidth,
+            borderBottomLeftRadius: borderRadius
           }
         ]}
       />
@@ -64,7 +68,8 @@ const ViewFinder = ({
             width: borderLength,
             borderColor: color,
             borderRightWidth: borderWidth,
-            borderBottomWidth: borderWidth
+            borderBottomWidth: borderWidth,
+            borderBottomRightRadius: borderRadius
           }
         ]}
       />
@@ -85,6 +90,10 @@ ViewFinder.propTypes = {
      * Border with of View Finder edges
      */
   borderWidth: PropTypes.number,
+  /**
+     * Border Radius of View Finder edges
+     */
+    borderRadius: PropTypes.number,
   /**
      * Border length of View Finder edges
      */
@@ -111,6 +120,7 @@ ViewFinder.defaultProps = {
   containerStyle: {},
   backgroundColor: 'transparent',
   borderWidth: 3,
+  borderRadius: 0,
   borderLength: 25,
   color: '#fff',
   height: 200,
@@ -139,6 +149,7 @@ const styles = StyleSheet.create({
   },
   topRightEdge: {
     position: 'absolute',
+
     top: 0,
     right: 0
   },
