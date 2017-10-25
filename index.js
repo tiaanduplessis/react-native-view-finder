@@ -15,6 +15,7 @@ const ViewFinder = ({
   color,
   loading,
   loadingBelowVF,
+  loadingColor,
   borderLength
 }) => (
   <View style={[styles.container, containerStyle, { backgroundColor }]}>
@@ -46,7 +47,7 @@ const ViewFinder = ({
         ]}
       />
       {loading && (
-        <ActivityIndicator style={[loadingBelowVF ? { top: (height - 50)}: loadingBelowVF]} animating={loading} color={color} size='large' />
+        <ActivityIndicator style={[loadingBelowVF ? { top: (height - 50)}: loadingBelowVF]} animating={loading} color={loadingColor} size='large' />
       )}
       <View
         style={[
@@ -100,7 +101,7 @@ ViewFinder.propTypes = {
      */
   borderLength: PropTypes.number,
   /**
-     * Color of View finder edges and Spinner
+     * Color of The View finder edges
      */
   color: PropTypes.string,
   /**
@@ -115,6 +116,10 @@ ViewFinder.propTypes = {
      * Bool to indicate if loading indicator should be shown under View Finder
      */
   loadingBelowVF: PropTypes.bool,
+  /**
+     * Color of The Spinner
+     */
+  loadingColor: PropTypes.string,
   /**
      * Width of View Finder
      */
@@ -131,6 +136,7 @@ ViewFinder.defaultProps = {
   height: 200,
   loading: false,
   loadingBelowVF: false,
+  loadingColor: '#fff',
   width: 200
 }
 
