@@ -87,7 +87,22 @@ This will result in:
   <img src="example.png" alt="">
 </div>
 
-See [the propTypes](index.js) for additional info. 
+## Props
+
+Prop | Description | Type | Defualt
+------ | ------ | ------ | ------
+**`containerStyle`** | Array Container Styles | Array |  **`{}`**
+**`backgroundColor`** | String for Background color of View Finder. | String | **`transparent`**
+**`color`** | String for Color of the View finder edges | String | **`#FFF`**
+**`height`** | Number for Height of View Finder | Number | **`200`**
+**`width`** | Number for Width of View Finder | Number | **`#200`**
+**`borderWidth`** | Number for Border with of View Finder edges | Number | **`3`**
+**`borderRadius`** | Number for Border Radius of View Finder edges | Number | **`0`**
+**`borderLength `** | Number for Border length of View Finder edges | Number | **`25`**
+**`loading`** | Bool for the indicate if loading indicator should be shown | Bool | **`false`**
+**`loadingColor`** | String for Color of the loading indicator | String | **`#FFF`**
+**`loadingBelowVF`** | Bool for the indicate if loading indicator should be shown under View Finder | Bool | **`false`**
+
 
 ## Contributing
 
