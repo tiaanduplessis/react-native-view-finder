@@ -14,6 +14,7 @@ const ViewFinder = ({
   borderRadius,
   color,
   loading,
+  loadingBelowVF,
   borderLength
 }) => (
   <View style={[styles.container, containerStyle, { backgroundColor }]}>
