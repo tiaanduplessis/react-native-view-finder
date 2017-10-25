@@ -16,6 +16,9 @@
   </a>
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" alt="prettier code formatting" />
+     <a href="hhttps://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/tiaanduplessis/react-native-view-finder.svg" alt="Greenkeeper" />
+  </a>
   </a>
   <a href="https://travis-ci.org/tiaanduplessis/react-native-view-finder">
     <img src="https://img.shields.io/travis/tiaanduplessis/react-native-view-finder.svg?style=flat-square" alt="travis ci build status" />
@@ -54,8 +57,6 @@
 </details>
 
 ## Install
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/react-native-view-finder.svg)](https://greenkeeper.io/)
 
 ```sh
 $ npm install react-native-view-finder
