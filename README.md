@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/react-native-view-finder.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install react-native-view-finder
 # OR
