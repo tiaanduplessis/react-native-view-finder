@@ -93,7 +93,7 @@ ViewFinder.propTypes = {
   /**
      * Border Radius of View Finder edges
      */
-    borderRadius: PropTypes.number,
+  borderRadius: PropTypes.number,
   /**
      * Border length of View Finder edges
      */
