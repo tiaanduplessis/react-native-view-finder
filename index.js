@@ -47,8 +47,8 @@ const ViewFinder = ({
         ]}
       />
       {loading && (
-        <ActivityIndicator 
-          style={[loadingBelowVF ? { top: (height - 50)}: loadingBelowVF]} 
+        <ActivityIndicator
+          style={[loadingBelowVF ? { top: height - 50 } : loadingBelowVF]}
           animating={loading}
           color={loadingColor}
           size='large'
