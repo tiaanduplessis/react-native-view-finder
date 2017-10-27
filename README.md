@@ -95,7 +95,7 @@ Prop | Description | Type | Defualt
 **`backgroundColor`** | String for Background color of View Finder. | String | **`transparent`**
 **`color`** | String for Color of the View finder edges | String | **`#FFF`**
 **`height`** | Number for Height of View Finder | Number | **`200`**
-**`width`** | Number for Width of View Finder | Number | **`#200`**
+**`width`** | Number for Width of View Finder | Number | **`200`**
 **`borderWidth`** | Number for Border with of View Finder edges | Number | **`3`**
 **`borderRadius`** | Number for Border Radius of View Finder edges | Number | **`0`**
 **`borderLength `** | Number for Border length of View Finder edges | Number | **`25`**
